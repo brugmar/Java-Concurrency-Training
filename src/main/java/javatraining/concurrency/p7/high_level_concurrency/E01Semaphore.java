@@ -1,5 +1,5 @@
 
-package javatraining.concurrency.p6.executors;
+package javatraining.concurrency.p7.high_level_concurrency;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +16,7 @@ class SecretRoom {
     }
 }
 
-public class E04Semaphore {
+public class E01Semaphore {
     public static void main(String... args){
         final SecretRoom room = new SecretRoom();
         Runnable entrant = new Runnable() {

@@ -1,4 +1,4 @@
-package javatraining.concurrency.p6.executors;
+package javatraining.concurrency.p7.high_level_concurrency;
 
 import java.util.Random;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -31,7 +31,7 @@ class Bookshelf {
     }
 }
 
-public class E05ReentrantReadWriteLock {
+public class E02ReentrantReadWriteLock {
 
     public static void main(String... args) {
         final Bookshelf shelf = new Bookshelf();
